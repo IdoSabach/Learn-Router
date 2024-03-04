@@ -13,7 +13,6 @@ const App = () => {
         <ul>
           <li>
             <Link to="profile">Profile page</Link>
-            <Link to="pageOne">click to page one </Link>
           </li>
         </ul>
       </nav>
