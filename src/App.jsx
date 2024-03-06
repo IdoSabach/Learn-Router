@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Link } from "react-router-dom";
+import LearnFetch from './LearnFetch';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           </li>
         </ul>
       </nav>
+      <LearnFetch />
     </div>
   );
 };
